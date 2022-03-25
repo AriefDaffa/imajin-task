@@ -1,16 +1,11 @@
 # Project Overview
 
-Project ini merupakan soal test programming dari Imajin, project ini dibuat menggunakan ReactJS dan beberapa dependency lainnya seperti yang telah saya cantumkan dibawah. Untuk melihat kode program yang telah di-build, silahkan buka pada folder build diatas.
+Project ini merupakan soal test programming dari Imajin, project ini dibuat menggunakan ReactJS dan beberapa dependency lainnya seperti yang telah dicantumkan dibawah. Kode program yang telah di-build terdapat pada file build diatas.
 
-Project diatas telah saya deploy dengan menggunakan Netlify pada URL
+Project diatas telah di-deploy dengan menggunakan Netlify pada URL.
 
 https://imajin-task.netlify.app/
 
-Untuk penjelasan dari beberapa kode program diatas, dapat diakses melalui
-
-https://docs.google.com/presentation/d/1akN7uFNjk_G32CCE7hGFw0wWamqPv9y5GbeUjTIkSAs/edit?usp=sharing
-
-Sekian dan terimakasih 🙏
 
 # Dependency Used
 
