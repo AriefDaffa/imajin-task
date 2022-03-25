@@ -5,7 +5,6 @@ import { vector1 } from '../../assets';
 import { useQuery } from 'react-query';
 import { GET_ALL_AUTHOR } from '../../api';
 import { useDispatch } from 'react-redux';
-import { setTotalData } from '../../redux/reducer/author';
 import { resetBook } from '../../redux/reducer/books';
 
 const ImageContainer = styled.div`
@@ -25,12 +24,8 @@ const Home = () => {
 	});
 
 	useEffect(() => {
-		// total data disini akan digunakan untuk melimit
-		// fungsi dispatch yg ada di file AuthorCard
+		// digunakan untuk mereset array yang telah ada pada page books
 		dispatch(resetBook());
-		if (typeof data !== 'undefined') {
-			dispatch(setTotalData(data.length));
-		}
 	}, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
 	return (
